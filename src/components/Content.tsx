@@ -1,6 +1,7 @@
 import{useState, useEffect} from 'react';
 import {api} from '../services/api'
 import { MovieCard } from './MovieCard';
+import '../styles/content.scss';
 
 
 interface MovieProps {
